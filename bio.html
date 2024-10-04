@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #35353a;
+    display: flex;
+    flex-direction: column;
+    height: auto; 
+    width: 100%; 
+    background-attachment: fixed;
+    margin-left: 0; 
+}
+nav {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: cursive;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+.profile-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+    text-align: center;
+    width: 90%; 
+    max-width: 800px; 
+    margin: auto; 
+}
+
+.profile-image img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 30px;
+    margin-top: 20px; 
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    nav ul li {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <nav>
+            <ul>
+                <li><a href="bio.html">Home</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="vidhi.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <div class="profile-image">
+            <img src="https://res.cloudinary.com/purnesh/image/upload/w_1000,f_auto,q_auto:eco,c_limit/vkhanna.jpg" alt="Vikas Khanna">
+        </div>
+
+        <div class="profile-info">
+            <h1>Vikas Khanna</h1>
+            <p>Vikas Khanna, born in 1971 in Amritsar, is a Michelin-starred chef renowned for his restaurant Junoon in New York, which held a Michelin star for six consecutive years.</p>
+
+            <h1>Interests</h1>
+            <p>He is passionate about Indian cuisine, storytelling, and philanthropy.</p>
+
+            <h1>Education</h1>
+            <p>Vikas studied at the Welcomgroup Graduate School of Hotel Administration and Le Cordon Bleu in the U.S.</p>
+
+            <h1>Famous Foods</h1>
+            <p>His signature dishes include Tandoori Salmon and Lamb Shank Rogan Josh.</p>
+
+            <p>Additionally, he directed the Oscar-shortlisted film *The Last Color* and led the Feed India initiative.</p>
+        </div>
+    </div>
+
+</body>
+</html
